@@ -40,7 +40,7 @@ class Evaluate:
     # Write your code here
     if len(self.stack) > 0:
         x = self.stack.pop()
-        return x
+    return x
 
 
   def push(self, operand):
